@@ -1,0 +1,224 @@
+body {
+	background-color: #fff;
+}
+h1 {
+	font-size: 2em;
+	margin: 0;
+	line-height: 1.5em;
+}
+nav .nav-wrapper {
+	background-color: #4C4C4C;
+}
+ul {
+	margin-top: 0;
+}
+a {
+	color: #18AFCA;
+}
+a:hover {
+	color: #1CC8E6;
+}
+.contact li {
+	font-size: 14px;
+	font-weight: 300;
+}
+.logo {
+	max-height: 56px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.tabs li.tab a {
+	color: #18AFCA;
+	background: #3A3939;
+}
+
+.tabs li.tab a:hover {
+	color: #1CC8E6;
+}
+
+a:active, a:hover {
+	outline-color: purple;
+}
+
+#tab-wrapper {
+	padding-right: 0;
+	padding-left: 0;
+	background: #3A3939; 
+}
+
+.tabs .indicator {
+	background-color: #18AFCA;
+}
+.tab-nav {
+	max-height: 48px;
+}
+
+.custom-card {
+	background: #fff;
+	border-radius: 4px;
+	-webkit-webkit: border-radius: 4px;
+	-moz-webkit: border-radius: 4px;
+	-ms-webkit: border-radius: 4px;
+	-o-webkit: border-radius: 4px;
+	webkit: border-radius: 4px;
+	margin-top: 12px;
+
+}
+
+.custom-card-img {
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+	-webkit-webkit: border-top-right-radius: 4px;
+	-moz-webkit: border-top-right-radius: 4px;
+	-ms-webkit: border-top-right-radius: 4px;
+	-o-webkit: border-top-right-radius: 4px;
+	webkit: border-top-right-radius: 4px;
+	-webkit-webkit: border-top-left-radius: 4px;
+	-moz-webkit: border-top-left-radius: 4px;
+	-ms-webkit: border-top-left-radius: 4px;
+	-o-webkit: border-top-left-radius: 4px;
+	webkit: border-top-left-radius: 4px;
+	padding: 10px 10px 0 10px;
+	border-bottom: 1px solid #D8D8D8;
+}
+
+.custom-card .active {
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+	-webkit-webkit: border-top-right-radius: 0px;
+	-moz-webkit: border-top-right-radius: 0px;
+	-ms-webkit: border-top-right-radius: 0px;
+	-o-webkit: border-top-right-radius: 0px;
+	webkit: border-top-right-radius: 0px;
+	-webkit-webkit: border-top-left-radius: 0px;
+	-moz-webkit: border-top-left-radius: 0px;
+	-ms-webkit: border-top-left-radius: 0px;
+	-o-webkit: border-top-left-radius: 0px;
+	webkit: border-top-left-radius: 0px;
+	border-bottom: none;
+}
+
+.row {
+	margin-bottom: 6px;
+}
+
+.custom-card-content {
+	padding: 14px;
+}
+.custom-card-content h2 {
+	margin:  0;
+	font-size: 1.2em;
+	line-height: 1em;
+	color: #262626;
+	font-weight: medium;
+}
+.custom-card-content p {
+	font-family: "Open Sans", Roboto, sans-serif;
+	margin-top: 10px;
+	color: #141823;
+	font-size: 13px;
+	font-weight: normal;
+	word-wrap: break-word;
+	
+}
+
+section .main {
+	margin-top: 0px;
+	border-bottom: 1px solid #D8D8D8;
+}
+
+div .video-container {
+	margin: 20px auto 0px auto;
+}
+
+.project-tiles {
+	margin-top: 50px;
+	padding-top: 20px;
+	background-color: #F2F2F2;
+}
+
+#profile-photo {
+	max-width: 100%;
+}
+div .row:last-child {
+	margin-bottom: 0px;
+}
+footer {
+	margin-top: 0px;
+}
+#work-footer {
+	background-color: #F2F2F2;
+}
+footer {
+	background-color: #fff;
+}
+
+.footer-icons:hover {
+	z-depth: 200;
+}
+
+footer p {
+	margin-top: 10px;
+	color: #9B9B9B;
+}
+
+.btn-floating {
+	background-color: transparent;
+	margin: 10px;
+}
+.contact-icon {
+	max-width: 20px;
+	margin-right: 8px;
+}
+
+/*
+	image backgrounds
+						*/
+
+#seamless-service-station {
+	background-color: #2BBEDF;
+}
+
+#myDevice {
+	background-color: #FCC151;
+}
+#TMR {
+	background-color: #99CA5A;
+}
+#mLOD {
+	background-color: #6E5BA5;
+}
+#gamification {
+	background-color: #ECCC82;
+}
+#ship-from-store {
+	background-color: #FC7157;
+}
+#compare-attach {
+	background-color: #1DB7C4;
+}
+#PAF {
+	background-color: #FEED35;
+}
+#flipchart {
+	background-color: #CE5AA0;
+}
+/*
+	MEDIA QUERIES
+						*/
+
+
+@media only screen and (max-width: 1000px) {
+	
+	.container {
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	.logo {
+		max-height: 50px;
+	}
+		
+	
+}
