@@ -28,9 +28,13 @@ a:hover {
 	margin-bottom: 2px;
 }
 
+.tabs {
+	background-color: #3A3939;
+}
+
 .tabs li.tab a {
 	color: #18AFCA;
-	background: #3A3939;
+	background-color: #3A3939;
 }
 
 .tabs li.tab a:hover {
@@ -39,6 +43,10 @@ a:hover {
 
 a:active, a:hover {
 	outline-color: purple;
+}
+
+.tabs li.tab {
+	background-color: #3A3939;
 }
 
 #tab-wrapper {
