@@ -7,10 +7,16 @@ h1 {
 	line-height: 1.5em;
 }
 nav {
-	background-color:#4C4C4C; 
+	background-image: -webkit-linear-gradient(#FFFFFF 0%, #F9FAFA 40%, #F5F6F6 81%);
+	background-image: -o-linear-gradient(#FFFFFF 0%, #F9FAFA 40%, #F5F6F6 81%);
+	background-image: linear-gradient(#FFFFFF 0%, #F9FAFA 40%, #F5F6F6 81%);
+
 }
 nav .nav-wrapper {
-	background-color: #4C4C4C;
+	background-image: -webkit-linear-gradient(#FFFFFF 0%, #F9FAFA 40%, #F5F6F6 81%);
+	background-image: -o-linear-gradient(#FFFFFF 0%, #F9FAFA 40%, #F5F6F6 81%);
+	background-image: linear-gradient(#FFFFFF 0%, #F9FAFA 40%, #F5F6F6 81%);
+	border-bottom: 1px solid #e0e0e0;
 }
 
 ul {
@@ -33,12 +39,12 @@ a:hover {
 }
 
 .tabs {
-	background-color: #3A3939;
+	background-color: #F2F2F2;
 }
 
 .tabs li.tab a {
 	color: #18AFCA;
-	background-color: #3A3939;
+	background-color: #F2F2F2;
 }
 
 .tabs li.tab a:hover {
@@ -50,13 +56,13 @@ a:active, a:hover {
 }
 
 .tabs li.tab {
-	background-color: #3A3939;
+	background-color: #F2F2F2;
 }
 
 #tab-wrapper {
 	padding-right: 0;
 	padding-left: 0;
-	background: #3A3939; 
+	background: #F2F2F2;
 }
 
 .tabs .indicator {
@@ -65,6 +71,15 @@ a:active, a:hover {
 .tab-nav {
 	max-height: 48px;
 }
+
+#tabs {
+	-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.12);
+	-moz-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.12);
+	-ms-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.12);
+	-o-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.12);
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
 
 .custom-card {
 	background: #fff;
