@@ -91,6 +91,7 @@ a:active, a:hover {
 	webkit: border-radius: 4px;
 	margin-top: 12px;
 
+
 }
 
 .custom-card-img {
@@ -160,9 +161,9 @@ div .video-container {
 }
 
 .project-tiles {
-	margin-top: 50px;
-	padding-top: 20px;
-	background-color: #F2F2F2;
+	margin-top: 0px;
+	padding-top: 0px;
+	background-color: #FFFFFF;
 }
 
 #profile-photo {
@@ -175,10 +176,10 @@ footer {
 	margin-top: 0px;
 }
 #work-footer {
-	background-color: #F2F2F2;
+	background-color: #FFFFFF;
 }
 footer {
-	background-color: #fff;
+	background-color: #FFFFFF;
 }
 
 .footer-icons:hover {
