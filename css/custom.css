@@ -6,9 +6,19 @@ h1 {
 	margin: 0;
 	line-height: 1.5em;
 }
-nav .nav-wrapper {
-	background-color: #4C4C4C;
+nav {
+	background-image: -webkit-linear-gradient(#FFFFFF 0%, #F9FAFA 40%, #F5F6F6 81%);
+	background-image: -o-linear-gradient(#FFFFFF 0%, #F9FAFA 40%, #F5F6F6 81%);
+	background-image: linear-gradient(#FFFFFF 0%, #F9FAFA 40%, #F5F6F6 81%);
+
 }
+nav .nav-wrapper {
+	background-image: -webkit-linear-gradient(#FFFFFF 0%, #F9FAFA 40%, #F5F6F6 81%);
+	background-image: -o-linear-gradient(#FFFFFF 0%, #F9FAFA 40%, #F5F6F6 81%);
+	background-image: linear-gradient(#FFFFFF 0%, #F9FAFA 40%, #F5F6F6 81%);
+	border-bottom: 1px solid #e0e0e0;
+}
+
 ul {
 	margin-top: 0;
 }
@@ -28,9 +38,13 @@ a:hover {
 	margin-bottom: 2px;
 }
 
+.tabs {
+	background-color: #F2F2F2;
+}
+
 .tabs li.tab a {
 	color: #18AFCA;
-	background: #3A3939;
+	background-color: #F2F2F2;
 }
 
 .tabs li.tab a:hover {
@@ -41,10 +55,14 @@ a:active, a:hover {
 	outline-color: purple;
 }
 
+.tabs li.tab {
+	background-color: #F2F2F2;
+}
+
 #tab-wrapper {
 	padding-right: 0;
 	padding-left: 0;
-	background: #3A3939; 
+	background: #F2F2F2;
 }
 
 .tabs .indicator {
@@ -53,6 +71,15 @@ a:active, a:hover {
 .tab-nav {
 	max-height: 48px;
 }
+
+#tabs {
+	-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.12);
+	-moz-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.12);
+	-ms-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.12);
+	-o-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.12);
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.08), 0 2px 3px 0 rgba(0, 0, 0, 0.10);
+}
+
 
 .custom-card {
 	background: #fff;
@@ -63,6 +90,7 @@ a:active, a:hover {
 	-o-webkit: border-radius: 4px;
 	webkit: border-radius: 4px;
 	margin-top: 12px;
+
 
 }
 
@@ -133,9 +161,9 @@ div .video-container {
 }
 
 .project-tiles {
-	margin-top: 50px;
-	padding-top: 20px;
-	background-color: #F2F2F2;
+	margin-top: 0px;
+	padding-top: 0px;
+	background-color: #FFFFFF;
 }
 
 #profile-photo {
@@ -148,10 +176,10 @@ footer {
 	margin-top: 0px;
 }
 #work-footer {
-	background-color: #F2F2F2;
+	background-color: #FFFFFF;
 }
 footer {
-	background-color: #fff;
+	background-color: #FFFFFF;
 }
 
 .footer-icons:hover {
@@ -170,6 +198,10 @@ footer p {
 .contact-icon {
 	max-width: 20px;
 	margin-right: 8px;
+}
+#contact h3 {
+	font-size: 18px;
+	margin-top: 0;
 }
 
 /*
@@ -219,6 +251,5 @@ footer p {
 	.logo {
 		max-height: 50px;
 	}
-		
 	
 }
