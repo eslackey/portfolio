@@ -6,6 +6,7 @@ h1 {
 	margin: 0;
 	line-height: 1.5em;
 }
+
 nav {
 	background-image: -webkit-linear-gradient(#FFFFFF 0%, #F9FAFA 40%, #F5F6F6 81%);
 	background-image: -o-linear-gradient(#FFFFFF 0%, #F9FAFA 40%, #F5F6F6 81%);
@@ -129,6 +130,7 @@ a:active, a:hover {
 
 .row {
 	margin-bottom: 6px;
+	
 }
 
 .custom-card-content {
@@ -154,10 +156,6 @@ a:active, a:hover {
 section .main {
 	margin-top: 0px;
 	border-bottom: 1px solid #D8D8D8;
-}
-
-div .video-container {
-	margin: 20px auto 0px auto;
 }
 
 .project-tiles {
