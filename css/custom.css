@@ -210,17 +210,20 @@ footer p {
 	background-color: #2BBEDF;
 }
 
-#myDevice {
-	background-color: #FCC151;
+#RTM {
+	background-color: #FFBF00;
 }
 #TMR {
-	background-color: #99CA5A;
-}
-#mLOD {
 	background-color: #6E5BA5;
 }
+#myDevice{
+	background-color: #CE5AA0;
+}
+#mLOD {
+	background-color: #51A2D2;
+}
 #gamification {
-	background-color: #ECCC82;
+	background-color: #99CA5A; 
 }
 #ship-from-store {
 	background-color: #FC7157;
@@ -228,11 +231,18 @@ footer p {
 #compare-attach {
 	background-color: #1DB7C4;
 }
-#PAF {
-	background-color: #FEED35;
-}
+
 #flipchart {
 	background-color: #CE5AA0;
+}
+#survey {
+	background-color: #8070B1;
+}
+#leader {
+	background-color: #FF8F1F;
+}
+#POS {
+	background-color: #65BAB6;
 }
 /*
 	MEDIA QUERIES
