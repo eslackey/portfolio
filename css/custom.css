@@ -1,3 +1,6 @@
+* {
+	box-sizing: border-box;
+}
 body {
 	background-color: #fff;
 }
@@ -91,8 +94,6 @@ a:active, a:hover {
 	-o-webkit: border-radius: 4px;
 	webkit: border-radius: 4px;
 	margin-top: 12px;
-
-
 }
 
 .custom-card-img {
@@ -244,12 +245,26 @@ footer p {
 #POS {
 	background-color: #65BAB6;
 }
+
+.card-container {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+	justify-content: space-between;
+	flex-flow: row wrap;
+}
+
+.custom-card {
+	flex-basis: 32%;
+}
+
+
 /*
 	MEDIA QUERIES
 						*/
 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
 	
 	.container {
 		padding-right: 0;
@@ -259,5 +274,20 @@ footer p {
 	.logo {
 		max-height: 50px;
 	}
+	.custom-card {
+	flex-basis: 48%;
+	}
+	
 	
 }
+
+@media only screen and (max-width: 600px) {
+	.custom-card {
+	flex-basis: 100%;
+	}
+}
+
+
+
+
+
