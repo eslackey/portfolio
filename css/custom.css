@@ -139,8 +139,8 @@ a:active, a:hover {
 	margin:  0;
 	font-size: 1.2em;
 	line-height: 1em;
-	color: #262626;
-	font-weight: medium;
+	color: #404040;
+	font-weight: 500;
 }
 
 .custom-card-content h6 {
@@ -155,7 +155,7 @@ a:active, a:hover {
 	margin-top: 10px;
 	color: #141823;
 	font-size: 13px;
-	font-weight: normal;
+	font-weight: 400;
 	word-wrap: break-word;
 	
 }
